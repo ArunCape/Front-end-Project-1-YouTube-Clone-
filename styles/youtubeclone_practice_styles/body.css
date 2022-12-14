@@ -1,0 +1,48 @@
+.div-grid-videocollections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+  }
+  
+  .div-video {
+    background-color: rgb(146, 153, 155);
+  }
+  
+  .thumbnail {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .div-grid-video-details {
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: 50px 1fr;
+  }
+  
+  .div-channel-profile {
+    display: grid;
+  }
+  
+  .profilepic {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .div-video-info {
+    width: 100%;
+  }
+  
+  .video-title {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
+  .authour-name,
+  .views-time {
+    font-size: medium;
+  }

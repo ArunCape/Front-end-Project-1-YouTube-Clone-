@@ -1,0 +1,29 @@
+.div-flex-toprow {
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    margin-bottom: 20px;
+  }
+  
+  .left-flex {
+    width: 400px;
+    background-color: lightblue;
+  }
+  
+  .middle-flex {
+    flex: 1;
+    background-color: lightpink;
+  }
+  
+  .right-flex {
+    width: 400px;
+    background-color: lightblue;
+  }
+  
+  .search-bar {
+    font-size: large;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
